@@ -11,6 +11,17 @@ To demonstrate, I built a sample blog app, It can be adapted into any app.
 - [Contributing](#contributing)
 - [Contact Info](#contact-info)
 
+## Screenshots
+
+![Django Admin Page 1](https://github.com/tuoc1226-maker/DjangoCombo/blob/master/templates/Screenshot%202021-10-23%20at%2023.12.52.png)
+
+![Django Admin Page 2](https://github.com/tuoc1226-maker/DjangoCombo/blob/master/templates/Screenshot%202021-10-23%20at%2023.13.05.png)
+
+![Fastapi Blog endpoints 1](https://github.com/tuoc1226-maker/DjangoCombo/blob/master/templates/Screenshot%202021-10-23%20at%2023.13.42.png)
+
+![Fastapi Blog endpoints 2](https://github.com/tuoc1226-maker/DjangoCombo/blob/master/templates/Screenshot%202021-10-23%20at%2023.13.51.png)
+
+
 ## Tools
 
 - Django
@@ -48,6 +59,8 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) for installation.
 - python manage.py createsuperuser
 - uvicorn core.asgi:app --reload
 ```
+
+## Tutorial:
 
 ## Contributing
 

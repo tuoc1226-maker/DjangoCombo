@@ -11,17 +11,6 @@ To demonstrate, I built a sample blog app, It can be adapted into any app.
 - [Contributing](#contributing)
 - [Contact Info](#contact-info)
 
-## Screenshots
-
-![Django Admin Page 1](https://github.com/drmacsika/fastapi-django-combo/blob/master/templates/Screenshot%202021-10-23%20at%2023.12.52.png)
-
-![Django Admin Page 2](https://github.com/drmacsika/fastapi-django-combo/blob/master/templates/Screenshot%202021-10-23%20at%2023.13.05.png)
-
-![Fastapi Blog endpoints 1](https://github.com/drmacsika/fastapi-django-combo/blob/master/templates/Screenshot%202021-10-23%20at%2023.13.42.png)
-
-![Fastapi Blog endpoints 2](https://github.com/drmacsika/fastapi-django-combo/blob/master/templates/Screenshot%202021-10-23%20at%2023.13.51.png)
-
-
 ## Tools
 
 - Django
@@ -60,16 +49,11 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) for installation.
 - uvicorn core.asgi:app --reload
 ```
 
-## Tutorial:
-- **Tutorial 1**: *[How to use FastAPI with Django ORM and Admin](https://nsikakimoh.com/learn/django-and-fastapi-combo-tutorials)*
-
 ## Contributing
 
 Pull requests and contributions are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-Ensure to follow the [guidelines](https://github.com/drmacsika/fastapi-django-combo/blob/master/CONTRIBUTING.md) and update tests as appropriate.
-
 ## Contact Info
 If you have any question or want to reach me directly, 
-[Contact Nsikak Imoh](https://nsikakimoh.com).
+
 

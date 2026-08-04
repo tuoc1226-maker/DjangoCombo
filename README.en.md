@@ -6,7 +6,7 @@
 
 その例として、サンプルブログアプリを作成しました。これは、あらゆるアプリケーションに応用可能です。
 
-## 目次：
+## Table of Contents:
 - [Screenshots](#screenshots)
 - [Tools](#tools)
 - [Features](#features)
@@ -15,7 +15,7 @@
 - [Contributing](#contributing)
 - [Contact Info](#contact-info)
 
-## スクリーンショット
+## Screenshots
 
 ![Django Admin Page 1](https://github.com/tuoc1226-maker/DjangoCombo/blob/main/templates/Screenshot%202021-10-23%20at%2023.12.52.png)
 
@@ -26,7 +26,7 @@
 ![Fastapi Blog endpoints 2](https://github.com/tuoc1226-maker/DjangoCombo/blob/main/templates/Screenshot%202021-10-23%20at%2023.13.51.png)
 
 
-## ツール
+## Tools
 
 - Django
 - Django Rest Framework (DRF)
@@ -37,20 +37,20 @@
 - CORS
 - Uvicorn and Gunicorn for Python web server
 
-## 機能
+## Features
 
-- ブログ記事とカテゴリのCRUDエンドポイント
-- 連絡先のCRUDエンドポイント
-- ユーザーアカウントの非同期CRUDエンドポイント
-- DRFを使用したユーザー認証エンドポイント
-- Django設定ファイル
-- Django Migrationsを使用したマイグレーション
-- Django ORMと管理ページ
-- JWTトークン認証
+- CRUD endpoints for blog posts and categories
+- CRUD endpoints for contacts
+- Asynchronous CRUD endpoints for user accounts
+- Endpoints for user authentication using DRF
+- Django settings file
+- Migrations using Django Migrations
+- Django ORM and Admin Page
+- JWT token authentication.
 
-## インストールと使用方法
+## Installation and Usage
 
-インストールにはパッケージマネージャー[pip](https://pip.pypa.io/en/stable/)を使用してください。
+Use the package manager [pip](https://pip.pypa.io/en/stable/) for installation.
 
 ```
 bash
@@ -65,11 +65,13 @@ bash
 - uvicorn core.asgi:app --reload
 ```
 
-## チュートリアル：
+## Tutorial:
 
-## 貢献方法
+## Contributing
 
-プルリクエストや貢献は大歓迎です。大幅な変更をご希望の場合は、まずイシューを作成して変更内容についてご相談ください。
+Pull requests and contributions are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-## 連絡先
-ご質問や直接ご連絡をご希望の場合は、DMにてご連絡ください。
+## Contact Info
+If you have any question or want to reach me directly, DM . 
+
+

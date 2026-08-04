@@ -1,0 +1,264 @@
+
+Django is a high-level Python web framework used to build web applications and APIs quickly. It includes many features out of the box, such as authentication, an admin panel, ORM, security protections, and routing.
+
+If NestJS is a popular enterprise backend framework in the Node.js ecosystem, Django fills a similar role in the Python ecosystem.
+
+
+Browser / Mobile App
+        │
+        ▼
+      Django
+        │
+        ├── Business Logic
+        ├── Authentication
+        ├── ORM
+        ├── Admin Panel
+        └── REST API
+        │
+        ▼
+    PostgreSQL / MySQL
+	
+	Django sits between your frontend and your database.
+	
+	What Can You Build?
+
+Django is used for:
+
+E-commerce websites
+Social media platforms
+CMS systems
+AI applications
+SaaS products
+Internal business tools
+REST APIs
+
+Many AI startups use Django because it's written in Python, making it easy to integrate AI libraries.
+
+
+Django Architecture (MVT)
+
+Django uses the Model-View-Template (MVT) pattern.
+
+Browser
+    │
+    ▼
+URL Router
+    │
+    ▼
+View
+    │
+    ▼
+Model
+    │
+    ▼
+Database
+    │
+    ▼
+View
+    │
+    ▼
+Template / JSON
+    │
+    ▼
+Browser
+
+
+Browser
+
+↓
+
+URL Router
+
+↓
+
+View
+
+↓
+
+Model
+
+↓
+
+Database
+
+↓
+
+View
+
+↓
+
+Template
+
+↓
+
+HTML
+
+↓
+
+Browser
+
+
+Django ORM
+
+Like Prisma in the Node.js world, Django includes its own ORM.
+
+Instead of writing SQL:
+
+SELECT * FROM products;
+
+you write:
+
+Product.objects.all()
+
+Or to find one product:
+
+Product.objects.get(id=1)
+
+The ORM generates the SQL automatically.
+
+
+Django Admin
+
+One of Django's standout features is its built-in admin interface.
+
+Imagine your database contains:
+
+Users
+Products
+Orders
+Payments
+
+With very little code, Django can generate an admin website where administrators can:
+
+Add products
+Edit users
+Delete orders
+Search records
+
+
+Authentication
+
+Django includes authentication features such as:
+
+Login
+Logout
+Password hashing
+User permissions
+Sessions
+
+without requiring additional libraries.
+
+
+Django REST Framework
+
+Many modern Django projects use the Django REST framework to expose APIs.
+
+Architecture:
+
+React / Vue
+
+↓
+
+REST API
+
+↓
+
+Django REST Framework
+
+↓
+
+Database
+
+This is similar to building APIs with NestJS.
+
+
+React
+
+↓
+
+Django API
+
+↓
+
+LangChain
+
+↓
+
+Vertex AI / OpenAI
+
+↓
+
+ChromaDB
+
+↓
+
+Response
+
+| Django                             | NestJS                                  |
+| ---------------------------------- | --------------------------------------- |
+| Python                             | TypeScript                              |
+| Built-in ORM                       | Usually paired with Prisma or TypeORM   |
+| Built-in admin panel               | No built-in admin panel                 |
+| Built-in authentication            | Authentication added via modules/guards |
+| Excellent for Python AI ecosystems | Excellent for TypeScript backends       |
+
+
+
+| Django           | Laravel                                                        |
+| ---------------- | -------------------------------------------------------------- |
+| Python           | PHP                                                            |
+| Django Templates | Blade                                                          |
+| Django ORM       | Eloquent ORM                                                   |
+| Django Admin     | No equivalent built into Laravel (though admin packages exist) |
+
+
+
+Example AI Application
+
+Imagine you're building a document chatbot.
+
+User
+
+↓
+
+Vue.js
+
+↓
+
+Django API
+
+↓
+
+Vector Database
+
+↓
+
+Gemini
+
+↓
+
+Answer
+
+↓
+
+Vue.js
+
+Django would handle:
+
+User accounts
+File uploads
+Document metadata
+API endpoints
+Authentication
+Business logic
+
+The AI model focuses on generating answers, while Django orchestrates the application.
+
+When should you use Django?
+
+Django is a strong choice when:
+
+You're working primarily in Python.
+Your application needs authentication, database access, and an admin interface.
+You're integrating closely with Python AI or data science libraries.
+You want a mature framework with many built-in features.
